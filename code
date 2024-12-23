@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Animal Group Names</title>
+        <style>
+            body{
+                background-color: rgb(66, 68, 110);
+                margin-left: 50px;
+            }
+            p{
+                font-family: monospace;
+                font-size: 16px;
+                color:rgb(255, 255, 255);
+            }
+
+            img{
+                max-width: 150px;
+            }
+
+            h1, h2{
+                font-family: "Courier New";
+                border-bottom: 1px solid rgb(230, 230, 230);
+                padding: 3px;
+                background-color: rgb(250, 140, 5);
+                color: rgb(93, 117, 90);
+            }
+            h1:hover, h2:hover{
+                background-color: rgb(93, 117, 90);
+                color: rgb(250, 140, 5);
+            }
+            .wiki{
+                color: rgb(255, 0, 247);
+            }
+            a:hover{
+                background-color: rgb(234, 0, 255);
+                color: rgb(0, 51, 255);
+            }
+            .silverframe{
+                border: ridge rgb(130, 161, 186) 10px;
+            }
+            .redframe{
+                border: ridge red 10px;
+            }
+            .goldframe{
+                border: ridge gold 10px;
+            }
+            .greenframe{
+                border: ridge rgb(110, 184, 140) 10px;
+            }
+            a,li{
+                color: rgb(225, 0, 255);
+                font-family: monospace;
+                text-decoration: none;
+            }
+            h3{
+                color: rgb(255, 255, 255);
+                font-family: "Courier New";
+                font-size: 22px;
+            }
+            .link{
+                color: white;
+            }
+            .link:hover{
+                color: white;
+                background-color: transparent;
+            }
+            button{
+                background-color: #008CBA;
+                border: 2px solid "black";
+                color: white;
+                padding: 15px 20px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                border-radius: 12px;
+                margin-bottom: 20px;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+
+        <h1>Animal group names</h1>
+
+        <p>For many species of animals, there are names that we use to refer to a group of them - like a flock of birds. Here are a few you might not know.</p>
+
+        <h3>Contents:</h3>
+        <ul>
+            <li><a href="#foxes">A skulk of foxes</a></li>
+            <li><a href="#cats">A clowder of cats</a></li>
+            <li><a href="#rabbits">A colony of rabbits</a></li>
+            <li><a href="#dogs">A pack of dogs</a></li>
+            <li><a href="#penguins">A waddle of penguins</a></li>
+            <li><a href="#horses">A team of horses</a></li>
+            <li><a href="#cheetahs">A coalition of cheetahs</a></li>
+        </ul>
+
+        <h2 id="foxes">A skulk of foxes</h2>
+
+        <p>Also called a "leash."</p>
+
+        <img src="https://www.kasandbox.org/programming-images/animals/fox.png"class="silverframe">
+
+        <h2 id="cats">A clowder of cats</h2>
+
+        <p>Also called a "pounce", "glaring", "kindle", or "clutter."</p>
+
+        <img src="https://www.kasandbox.org/programming-images/animals/cat.png"class="goldframe">
+
+        <h2 id="rabbits">A colony of rabbits</h2>
+        <img src="https://www.kasandbox.org/programming-images/animals/rabbit.png"class="greenframe">
+
+        <h2 id="dogs">A pack of dogs</h2>
+        <img src="https://www.kasandbox.org/programming-images/animals/retriever.png"class="redframe">
+        <h2 id="penguins">A waddle of penguins</h2>
+        <p>Also as known as a raft, rookery, colony and huddle.</p>
+        <img src="https://www.kasandbox.org/programming-images/animals/penguins.png"class="silverframe">
+        <h2 id="horses">A team of horses</h2>
+        <p>Also as known as a harras, rag, stud and string.</p>
+        <img src="https://www.kasandbox.org/programming-images/animals/horse.png"class="greenframe">
+        <h2 id="cheetahs">A coalition of cheetahs</h2>
+        <p>There seems to be only ONE group name for cheetahs which is "coalition".</p>
+        <img src="https://www.kasandbox.org/programming-images/animals/cheetah.png"class="goldframe">
+        <p>
+        <a href="http://en.wikipedia.org/wiki/List_of_animal_names"class="wiki">Learn more on Wikipedia</a>
+        </p>
+        <button><a class="link" href="https://www.euronews.com/green/2024/01/01/animal-collective-nouns-do-you-know-your-blessings-from-your-charms">Click for the funniest animal group names</a></button>
+        <button><a class="link" href="https://www.treehugger.com/strange-collective-animal-names-4868835">An A to Z List of Animal Group Names</a></button>
+        <button><a class="link" href="https://www.bbc.co.uk/newsround/48539466">Bizarre Animal Group Names - BBC Newsround</a></button>
+    </body>
+</html>
