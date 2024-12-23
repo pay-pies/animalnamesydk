@@ -78,11 +78,24 @@
                 margin-bottom: 20px;
                 margin-top: 10px;
             }
+            header{
+            background-color: #79a3b1;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+            font-family: "Courier New";
+            font-size: 36px;
+            margin-right: 50px;
+            }
+            header:hover{
+            background-color: rgb(250, 140, 5);
+            color: rgb(93, 117, 90);
+            }
         </style>
     </head>
     <body>
 
-        <h1>Animal group names</h1>
+        <header>Animal Group Names</header>
 
         <p>For many species of animals, there are names that we use to refer to a group of them - like a flock of birds. Here are a few you might not know.</p>
 
@@ -126,6 +139,7 @@
         <p>
         <a href="http://en.wikipedia.org/wiki/List_of_animal_names"class="wiki">Learn more on Wikipedia</a>
         </p>
+        <p>Some of these do not work ⬇️, right click --> open link in new tab</p>
         <button><a class="link" href="https://www.euronews.com/green/2024/01/01/animal-collective-nouns-do-you-know-your-blessings-from-your-charms">Click for the funniest animal group names</a></button>
         <button><a class="link" href="https://www.treehugger.com/strange-collective-animal-names-4868835">An A to Z List of Animal Group Names</a></button>
         <button><a class="link" href="https://www.bbc.co.uk/newsround/48539466">Bizarre Animal Group Names - BBC Newsround</a></button>
